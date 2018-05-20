@@ -9,12 +9,17 @@ Please:
   <laserCutter class="com.t_oster.liblasercut.drivers.ThunderLaser">
     <ruida>
       <filename>thunder.rd</filename>
-      <width>0.0</width>
-      <height>0.0</height>
+      <port>80</port>
+      <hostname></hostname>
+      <boundingWidth>0.0</boundingWidth>
+      <boundingHeight>0.0</boundingHeight>
+      <boundingLayer>-1</boundingLayer>
     </ruida>
     <useBidirectionalRastering>false</useBidirectionalRastering>
+	<addSpacePerRasterLine>2.0</addSpacePerRasterLine>
     <BedWidth>900.0</BedWidth>
     <BedHeight>600.0</BedHeight>
+	<LaserPowerMin>0</LaserPowerMin>
     <LaserPowerMax>70</LaserPowerMax>
     <MaxVectorCutSpeed>1000</MaxVectorCutSpeed>
     <MaxVectorMoveSpeed>1000</MaxVectorMoveSpeed>
